@@ -8,5 +8,7 @@ urlpatterns = [
     path('',views.tutoriales, name="Tutoriales"),
     path('whatsapp',views.whatsapp, name="Whatsapp"),
     path('youtube',views.youtube, name="Youtube"),
+    path('facebook',views.facebook, name="Facebook"),
+    path('google',views.google, name="Google"),
 ]
 
