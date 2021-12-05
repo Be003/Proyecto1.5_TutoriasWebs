@@ -6,19 +6,15 @@
 
     {% for tutorial in tutoriales %}
 
-   <section class="page-section clearfix">
-    <div class="container">
-      <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{tutorial.imagen.url}}" alt="" style="width: 35%;">
-        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-          <h2 class="section-heading mb-4" >
-            <span class="section-heading-upper">{{tutorial.titulo}}</span>
-            <span class="section-heading-upper">{{tutorial.contenido}}</span>
-              <a style="color:white" href="{{tutorial.contenido}}">Click para ir al tutorial de {{tutorial.contenido}}</a>
-          </h2>
-        </div>
+    <div class="contenedorTutoriales">
+      <div class="div1">
+          <img class="img" src="{{tutorial.imagen.url}}" alt="" width="70%">
       </div>
-    </div>
+      <div class="Titulo_y_Link">
+          <h1 style="color:white">{{tutorial.titulo}}</h1>
+          <a style="color:white" href="{{tutorial.contenido}}">Click para ir al tutorial de {{tutorial.contenido}}</a>
+      </div>
+      </div>
   </section>
 
     {% endfor %}

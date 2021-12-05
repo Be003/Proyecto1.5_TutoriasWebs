@@ -278,7 +278,7 @@ ul.errorlist{
   color: red;
 }
 
-.contenedorTutoriales {
+.contenedorContenidoTutoriales {
   background-color: rgba(24, 64, 8); /* color verde */
   width: 90%;
   margin: 10px auto;
@@ -293,3 +293,27 @@ ul.errorlist{
 
 .div1 { grid-area: 1 / 1 / 2 / 2; }
 .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.contenedorTutoriales {
+  background-color: rgba(24, 64, 8);
+  width: 60%;
+  height: auto;
+  margin: 40px auto;
+  padding: 15px 15px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+.Titulo_y_Link {
+  text-align: center;
+  margin:auto;
+}
+
+img{
+  display:block;
+  margin:auto;
+}
