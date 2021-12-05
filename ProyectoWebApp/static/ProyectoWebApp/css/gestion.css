@@ -279,9 +279,9 @@ ul.errorlist{
 }
 
 .contenedorContenidoTutoriales {
-  background-color: rgba(24, 64, 8); /* color verde */
+  background-color: rgb(70, 76, 80); /* color verde */
   width: 90%;
-  margin: 10px auto;
+  margin: 40px auto;
   padding: 15px 15px;
 
   display: grid;
@@ -295,7 +295,7 @@ ul.errorlist{
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 
 .contenedorTutoriales {
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(70, 76, 80);
   width: 60%;
   height: auto;
   margin: 40px auto;
