@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(70, 76, 80); /* barra navegacion rgba(24, 64, 8)*/
   font-family: 'Raleway';
 }
 
@@ -134,7 +134,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
+    background-color: rgb(70, 76, 80); /* cuadro texto inicio/ cuadro tutoriales / color verde */
     color: cornsilk;
     position: absolute;
   }
@@ -155,14 +155,14 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgb(242, 245, 240);
+  background-color: rgb(242, 245, 240); /*contorno de "Compromiso"*/
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(70, 76, 80); /* cuadro compromiso / color verde */
   color: cornsilk;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+   background-color: rgb(70, 76, 80); /* color del pie de pagina */
 }
 
 
@@ -279,7 +279,7 @@ ul.errorlist{
 }
 
 .contenedorTutoriales {
-  background-color: rgba(24, 64, 8);
+  background-color: rgba(24, 64, 8); /* color verde */
   width: 90%;
   margin: 10px auto;
   padding: 15px 15px;
