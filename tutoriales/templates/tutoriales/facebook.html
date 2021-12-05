@@ -4,7 +4,48 @@
 
 {% block content %}
 
-<div><p style="Color:red">Estas en el tutorial de face</p></div>
+<div class="contenedorTutoriales">
+    <div class="div1">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/Animation.gif' %}" alt="">
+    </div>
+    <div class="div2">
+        <br />
+        <h4 class="text" style="Color:rgb(241, 223, 138);">Las distintas funcionalidades de la aplicación se presentan en el gif en el siguiente orden:</h4>
+        <br />
+            <p class="text" style="Color:white;text-align: justify;"">
+                1) <b style="color: lightskyblue;"><u>Login:</u></b> Ingrese en “Teléfono o correo electrónico” y “contraseña”, lo solicitado según corresponda.<br>
+            </p>
+            <p class="text" style="Color:white;text-align: justify;" >
+                2) <b style="color: lightskyblue;"><u>Historias:</u></b> Recuadros pequeños que al presionarlos despliegan fotos o videos subidos por sus amigos y que desaparecen automáticamente luego de 24 horas; puede subir de estas apretando donde dice “crear historia”.<br>
+            </p>
+            <p class="text" style="Color:white;text-align: justify;"">
+                3) <b style="color: lightskyblue;"><u>Publicaciones:</u></b> Similar a las historias, pero de mayor tamaño y no desaparecen. Puede realizar de estas presionando donde dice “¿Qué estás pensando?”. Interacciones:<br>
+                    - <i style="color:bisque;">“Me gusta”</i> : Si mantiene presionado este botón, se le desplegarán las distintas opciones que tiene para “reaccionar” a la publicación.<br>
+                    - <i style="color:bisque;">“Comentar”</i> : Usted puede escribir lo que desee en la sección de “comentarios”.<br>
+                    - <i style="color:bisque;">“Compartir”</i> : Puede difundir la publicación en los distintos lugares que se le ofrecen al presionar este botón.<br>
+            </p>
+            <p class="text" style="Color:white;text-align: justify;"">
+                4) <b style="color: lightskyblue;"><u>Buscador:</u></b> Presionando en la lupa de la esquina superior derecha, podrá buscar a algo o alguien en específico escribiendo palabras clave relacionadas o el nombre, según qué sea lo que busque.
+            </p>
+            
+    </div>
+</div>
+
+<div class="contenedorTutoriales">
+    <div class="div1">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'ProyectoWebApp/img/messenger.jpg' %}" alt="">
+    </div>
+    <div class="div2">
+        <br /> 
+        <p class="text" style="Color:white;text-align: justify;"">
+            5) <b style="color: lightskyblue;"><u>Mensajes:</u></b> Presionando en el ícono de la esquina superior derecha de su pantalla accederá a la sección de mensajería (Deberá tener instalada previamente la aplicación “Messenger”, también puede acceder entrando directamente en esta), luego elige el perfil que desee ocupar. Secciones:<br>
+            <br />
+                - <i style="color:bisque;">“Chats”</i> : Aquí verá sus conversaciones anteriores (si es que tuvo alguna), para hablarle a alguien en específico puede ingresar su nombre donde dice “buscar”, presionar sobre él y escribirle.<br>
+            <br />    
+                - <i style="color:bisque;">“Personas”</i> : Dividida en 2 secciones: “Activos”, donde verá a los amigos que estén en la aplicación en ese momento, puede escribirles de la misma forma ya dicha, presionando en ellos y escribiéndoles; e “Historias”, que funcionan tal como ya se señaló previamente.<br>
+        </p>
+    </div>
+</div>
 
 
 {% endblock %}
