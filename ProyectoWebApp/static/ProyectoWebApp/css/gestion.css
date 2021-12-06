@@ -291,7 +291,11 @@ ul.errorlist{
   grid-row-gap: 0px;
 }
 
-.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div1 { 
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: rgba(36, 33, 33, 0.7); 
+}
+
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 
 .contenedorTutoriales {
@@ -310,7 +314,7 @@ ul.errorlist{
 
 .Titulo_y_Link {
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
 
 img{
